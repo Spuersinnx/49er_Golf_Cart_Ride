@@ -1,0 +1,260 @@
+.booking-container {
+    margin: auto;
+    width: 50%;
+    padding: 4px;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
+.booking-container h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: darkslategrey;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.booking-container-header h1 {
+    margin-top: 0;
+}
+
+.booking-select {
+    margin-top: 20px;
+    display: inline-block;
+    background: no-repeat url('../img/down-arrow.png')  97% 0;
+    overflow: hidden;
+    height: 29px;
+    width: 200px;
+
+}
+
+.booking-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 240px;
+}
+
+.booking-select2 {
+    margin-top: 20px;
+    display: inline-block;
+    background: no-repeat url('../img/down-arrow.png')  97% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 495px;
+}
+
+.booking-select2 select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 520px;
+}
+
+.booking-select3 {
+    margin-top: 20px;
+    display: inline-block;
+    background: no-repeat url('../img/down-arrow.png')  97% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 495px;
+}
+
+.booking-select3 select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 520px;
+}
+
+
+.rate-select {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width: 99px;
+}
+
+.rate-select select {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 13px;
+    background: darkgreen;
+    border: none;
+    width: 130px;
+    text-align: center;
+}
+
+.rate-select select:focus {
+    box-shadow: 0 0 5px green;
+}
+
+.date-select {
+    margin-top: 20px;
+    display: inline-block;
+    height: 29px;
+    overflow: hidden;
+    width: 495px;
+
+}
+
+.date-select input {
+    background: no-repeat url('../img/down-arrow.png')  97% 0;
+    cursor: pointer;
+    font-size: 14px;
+    height: 29px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.headerLink {
+    float: right;
+    list-style-type: none;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.headerNoLink {
+    float: right;
+    list-style-type: none;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.headerNoLink a:hover {
+    color: darkslategrey;
+    cursor: default;
+}
+
+.icon {
+    float: right;
+    margin-right: -40px;
+
+}
+
+
+.submit-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.submit-container input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+}
+
+.submitButton {
+    background-color: darkgreen;
+    margin-top: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    cursor: hand;
+}
+
+.deleteButton {
+    background-color: green;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    cursor: hand;
+    border-radius: 8px;
+    border: solid 1px black;
+    margin: auto;
+    width: 80%;
+    float: right;
+}
+
+/*login container*/
+
+.login-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.login-container input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+}
+
+.login-container label {
+    text-align: left;
+    margin-left: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.loginButton {
+    background-color: darkgreen;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    cursor: hand;
+}
+
+.login-container input:focus {
+    box-shadow: 0 0 5px green;
+}
+
+.pagination {
+    display: inline-block;
+    margin: auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.error-Msg {
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error-Msg p {
+    color: red;
+    font-weight: bold;
+}
+
+.noHover a:hover {
+    opacity: 1 !important;
+}

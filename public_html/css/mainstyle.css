@@ -1,0 +1,157 @@
+body {
+    background-color: white;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+/*
+!* The "Forgot password" text *!
+span.psw {
+    float: right;
+    padding-top: 16px;
+}*/
+
+
+header {
+    height: 30%;
+}
+
+header h1 {
+    float: left;
+    margin-top: 40px;
+}
+
+header nav {
+    float: left;
+}
+
+
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: dimgrey;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+.headerLink a:hover {
+    color: goldenrod;
+}
+
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+
+/*Responsive table*/
+table {
+    margin-top: 10px;
+    width: 70%;
+    border-collapse: collapse;
+    background: white;
+    color: darkslategrey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: darkgreen;
+    color: white;
+}
+
+th {
+    background: white;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 980px;
+
+}
+
+footer {
+    padding: 60px 0;
+    background-color: #f8fafa;
+}
+
+#footer-info {
+    font-size: small;
+    width: auto;
+    margin-top: 10px;
+
+}
